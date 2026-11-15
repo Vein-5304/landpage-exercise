@@ -152,3 +152,40 @@ ul{
     font-weight: bold;
     align-self: flex-end;
 }
+
+.fourth-section-content{
+    margin: 100px;
+    background-color: #3882F6;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.call-left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.top-side{
+    font: 26px;
+    font-weight: 900;
+}
+
+.lower-side{
+    font-weight: 300;
+}
+
+.btn-call{
+    padding: 10px 30px;
+    color: white;
+    border: white 3px solid;
+    border-radius: 10px;
+    background-color: transparent;
+}
